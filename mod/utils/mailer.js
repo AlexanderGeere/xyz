@@ -86,6 +86,7 @@ async function mailer(params) {
       console.error(err);
       return;
     }
+
     console.log(info);
     const result = `${info.messageId}: ${JSON.stringify(info.envelope, null, 2)}`;
 
