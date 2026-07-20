@@ -39,6 +39,7 @@ RATE_LIMIT_WINDOW - Time window in ms (default: 1 min)
 @requires cookie-parser HTTP cookie parsing middleware
 @requires express-rate-limit Rate limiting middleware
 */
+import './telemetry.js';
 
 import './mod/utils/processEnv.js';
 import cookieParser from 'cookie-parser';
